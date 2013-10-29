@@ -1,5 +1,14 @@
 " Use Vim settings, rather then Vi settings (much better!).
 " This must be first, because it changes other options as a side effect.
+ino jj <esc>
+cno jj <c-c>
+vno v <esc>
+ino jk <esc>
+cno jk <c-c>
+ino kj <esc>
+cno kj <c-c>
+ino kk <esc>
+cno kk <c-c>
 set nocompatible
 
 " TODO: this may not be in the correct place. It is intended to allow overriding <Leader>.
