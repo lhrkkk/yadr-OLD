@@ -136,7 +136,8 @@ def install_homebrew
     puts "Installing Homebrew, the OSX package manager...If it's"
     puts "already installed, this will do nothing."
     puts "======================================================"
-    run %{ruby -e "$(curl -fsSkL raw.github.com/mxcl/homebrew/go)"}
+    run %{    ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go/install)"}
+
   end
 
   puts
@@ -144,13 +145,14 @@ def install_homebrew
   puts "======================================================"
   puts "Updating Homebrew."
   puts "======================================================"
-  run %{brew update}
+  #run %{brew update}
   puts
   puts
   puts "======================================================"
   puts "Installing Homebrew packages...There may be some warnings."
   puts "======================================================"
-  run %{brew install zsh ctags git hub tmux reattach-to-user-namespace the_silver_searcher}
+  #run %{brew install zsh ctags git hub tmux reattach-to-user-namespace the_silver_searcher}
+  run %{brew bundle}
   puts
   puts
 end
