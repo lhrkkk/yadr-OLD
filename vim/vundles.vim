@@ -109,6 +109,7 @@ Bundle "vim-scripts/lastpos.vim"
 Bundle "vim-scripts/sudo.vim"
 Bundle "xsunsmile/showmarks.git"
 Bundle "terryma/vim-multiple-cursors"
+Bundle "myusuf3/numbers.vim"
 
 " Session Management
 "vim-misc is required for vim-session

@@ -28,3 +28,4 @@ installcask vagrant
 installcask anki 
 installcask xquartz 
 installcask mactex
+installcask qq

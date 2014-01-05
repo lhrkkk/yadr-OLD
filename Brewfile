@@ -11,7 +11,7 @@ install coreutils
 install findutils
 # Install Bash 4
 install bash
-install zsh ctags git hub tmux reattach-to-user-namespace the_silver_searcher
+install zsh ctags git hub tmux reattach-to-user-namespace the_silver_searcher dos2unix
 # Install wget with IRI support
 install wget --enable-iri
 install  curl openssl imagemagick gfortran 
