@@ -15,3 +15,7 @@ alias d='fasd -d' # directory
 alias f='fasd -f' # file
 alias z='fasd_cd -d' # cd, same functionality as j in autojump
 alias zz='fasd_cd -d -i' # interactive directory jump
+
+
+alias m='f -e mate' # quick opening files with vim
+alias o='a -e open' # quick opening files with osx open

@@ -28,7 +28,7 @@ alias du='du -h -d 2'
 alias lsg='ll | grep'
 
 # Alias Editing
-alias ae='vim $yadr/zsh/aliases.zsh' #alias edit
+alias ae='mate $yadr/zsh/aliases.zsh' #alias edit
 alias ar='source $yadr/zsh/aliases.zsh'  #alias reload
 
 # vim using
@@ -154,3 +154,9 @@ alias srdmt='spring rake db:migrate db:test:prepare'
 alias sp='sprintly'
 # spb = sprintly branch - create a branch automatically based on the bug you're working on
 alias spb="git checkout -b \`sp | tail -2 | grep '#' | sed 's/^ //' | sed 's/[^A-Za-z0-9 ]//g' | sed 's/ /-/g' | cut -d"-" -f1,2,3,4,5\`"
+
+
+# OS X
+alias qlf='qlmanage -p '
+
+#alias mplayerx='open -a /Applications/MPlayerX.app --args -name'
