@@ -1,1 +1,2 @@
-ssh -R 52698:localhost:52698 luhr@front
+#!/bin/sh
+ssh -R 52698:localhost:52698 -X luhr@front
