@@ -12,6 +12,7 @@ if [[ "$OSTYPE" != darwin* ]]; then
 else alias ls='ls -Gh'
 fi
 
+alias t='tmux attach'
 
 # YADR support
 alias yav='yadr vim-add-plugin'
