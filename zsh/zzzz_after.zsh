@@ -5,4 +5,3 @@ if [ -d $HOME/.zsh.after/ ]; then
   fi
 fi
 
-tmux attach
