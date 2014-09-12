@@ -3,7 +3,7 @@
 # Don't change. The following determines where YADR is installed.
 yadr=$HOME/.yadr
 
-
+alias v='vagrant'
 alias t='tmux attach'
 
 # YADR support
