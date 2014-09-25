@@ -1,0 +1,3 @@
+#!/bin/sh
+mkdir converted
+find * -exec sh -c "iconv -f GB18030 -t UTF8 {} > converted/{}" \; 
