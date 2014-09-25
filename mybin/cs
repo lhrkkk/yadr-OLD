@@ -9,6 +9,5 @@ else
 	subl $1
 fi
 
-if [ -e $1 ]; then
-	chmod +x $1;
-fi
+
+chmod +x $1;
