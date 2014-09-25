@@ -20,6 +20,7 @@ alias psr='ps aux | grep ruby'
 
 # Moving around
 alias cdb='cd -'
+alias cls='clear;ls'
 
 # Show HUMAN friendly numbers and colors
 alias df='df -h'
@@ -181,6 +182,7 @@ alias dbmu='spring rake db:migrate:up'
 
 
 
+
 # ls in linux
 # in yadr/zsh/prezto/modules/utility/init.sh there is a section testing whether dircolor is callable and distinguish osx and unix system's ls aliases.
 # in unix dircolor is configed with /etc/DIR_COLORS or ~/.dir_colors with particular syntax
@@ -190,3 +192,7 @@ if [[ "$OSTYPE" != darwin* ]]; then
 	alias du='du -h'
 else alias ls='ls -Gh'
 fi
+
+# Homebrew
+alias brewu='brew update && brew upgrade && brew cleanup && brew prune && brew doctor'
+
