@@ -28,26 +28,26 @@ alias ll='ls -alGh'
 
 alias du='du -h -d 2'
 
-# # show me files matching "ls grep"
-# alias lsg='ll | grep'
+# show me files matching "ls grep"
+alias lsg='ll | grep'
 
-# # Alias Editing
-# alias ae='mate $yadr/zsh/aliases.zsh' #alias edit
-# alias ar='source $yadr/zsh/aliases.zsh'  #alias reload
+# Alias Editing
+alias ae='mate $yadr/zsh/aliases.zsh' #alias edit
+alias ar='source $yadr/zsh/aliases.zsh'  #alias reload
 
-# # vim using
-# mvim --version > /dev/null 2>&1
-# MACVIM_INSTALLED=$?
-# if [ $MACVIM_INSTALLED -eq 0 ]; then
-#   alias vim="mvim -v"
-# fi
+# vim using
+mvim --version > /dev/null 2>&1
+MACVIM_INSTALLED=$?
+if [ $MACVIM_INSTALLED -eq 0 ]; then
+  alias vim="mvim -v"
+fi
 
-# # vimrc editing
-# alias ve='vim ~/.vimrc'
+# vimrc editing
+alias ve='vim ~/.vimrc'
 
-# # zsh profile editing
-# alias ze='vim ~/.zshrc'
-# alias zr='source ~/.zshrc'
+# zsh profile editing
+alias ze='vim ~/.zshrc'
+alias zr='source ~/.zshrc'
 
 # Git Aliases
 alias gs='git status'
