@@ -6,9 +6,9 @@
 
 trap("SIGINT") { exit }
 
-watch_folder = "/Users/lhr/Marboo/"
+watch_folder = "/Users/lhr/@nb/"
 watch_types = ['txt','md']
-marked_note = File.expand_path("~/Marboo/nvALT/Marked Preview.markdown")
+marked_note = File.expand_path("/Users/lhr/@nb/nvALT/Marked Preview.markdown")
 
 while true do # repeat infinitely
   files = []
